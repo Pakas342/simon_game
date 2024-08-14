@@ -1,0 +1,51 @@
+html {
+    margin: 0;
+    padding: 0  ;
+}
+
+.level-title {
+    font-family: 'Press Start 2P', 'cursive';
+    font-size: 3rem;
+    margin: 5%;
+    color: #FEF2BF;
+    text-align: center;
+}
+
+body {
+    background-color: #011F3F;
+}
+
+.button-container {
+    max-width: 500px;
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2rem;
+    column-gap: 2rem;
+    justify-items: center;
+}
+
+.button {
+    aspect-ratio: 1;
+    border-radius: 20%;
+    border: 10px solid black;
+    width: 100%;
+    height: auto;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
